@@ -2,18 +2,18 @@
 Imports System.IO
 
 Public Class Form1
-    Private Function compressImg(intPercent As Integer) '100 percent to intPercent
+    Private Sub compressImg(intPercent As Integer) '100 percent to intPercent
         Dim intX, intY As Integer
         intX = Int(PictureBox1.Image.Width / 100 * intPercent)
         intY = Int(PictureBox1.Image.Height / 100 * intPercent)
         Dim bm As Bitmap = New Bitmap(intX, intY)
         Dim g As Graphics = Graphics.FromImage(bm)
 
-        g.InterpolationMode = Drawing.Drawing2D.InterpolationMode.HighQualityBicubic
+        g.InterpolationMode = Drawing2D.InterpolationMode.HighQualityBicubic
 
         g.DrawImage(PictureBox1.Image, 0, 0, intX, intY)
         PictureBox2.Image = bm
-    End Function
+    End Sub
 
     Private Function getSize(pb As PictureBox)
         Dim ms = New MemoryStream()
