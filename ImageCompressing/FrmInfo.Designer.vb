@@ -44,11 +44,11 @@ Partial Class FrmInfo
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(149, 145)
+        Me.Label2.Location = New System.Drawing.Point(123, 145)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(186, 21)
+        Me.Label2.Size = New System.Drawing.Size(238, 21)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "From Khoiron14 In 2019"
+        Me.Label2.Text = "Created by Khoiron14 In 2019"
         '
         'Label3
         '
@@ -101,7 +101,7 @@ Partial Class FrmInfo
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "FrmInfo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About"
