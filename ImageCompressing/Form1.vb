@@ -67,4 +67,8 @@ Public Class Form1
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         FrmInfo.ShowDialog()
     End Sub
+
+    Private Sub TrackBar1_ValueChanged(sender As Object, e As EventArgs) Handles TrackBar1.ValueChanged
+        Label6.Text = TrackBar1.Value.ToString + " %"
+    End Sub
 End Class
