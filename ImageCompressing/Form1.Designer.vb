@@ -52,7 +52,7 @@ Partial Class Form1
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Left
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(339, 261)
+        Me.PictureBox1.Size = New System.Drawing.Size(342, 261)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -153,7 +153,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(430, 2)
+        Me.Label4.Location = New System.Drawing.Point(475, 5)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(43, 21)
         Me.Label4.TabIndex = 6
@@ -163,7 +163,7 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(90, 3)
+        Me.Label3.Location = New System.Drawing.Point(112, 5)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(43, 21)
         Me.Label3.TabIndex = 5
@@ -174,30 +174,30 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(343, 3)
+        Me.Label2.Location = New System.Drawing.Point(343, 5)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 19)
+        Me.Label2.Size = New System.Drawing.Size(126, 19)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Memory :"
+        Me.Label2.Text = "Compress Size :"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(3, 3)
+        Me.Label1.Location = New System.Drawing.Point(3, 5)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(81, 19)
+        Me.Label1.Size = New System.Drawing.Size(103, 19)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Memory :"
+        Me.Label1.Text = "Source Size :"
         '
         'PictureBox2
         '
         Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Right
-        Me.PictureBox2.Location = New System.Drawing.Point(345, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(342, 0)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(339, 261)
+        Me.PictureBox2.Size = New System.Drawing.Size(342, 261)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 2
         Me.PictureBox2.TabStop = False
@@ -209,7 +209,7 @@ Partial Class Form1
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(252, 232)
+        Me.Button1.Location = New System.Drawing.Point(255, 232)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 27)
         Me.Button1.TabIndex = 3
@@ -227,7 +227,7 @@ Partial Class Form1
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(347, 232)
+        Me.Button2.Location = New System.Drawing.Point(344, 232)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(85, 27)
         Me.Button2.TabIndex = 4
