@@ -92,7 +92,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(278, 33)
+        Me.Label6.Location = New System.Drawing.Point(278, 29)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(44, 21)
         Me.Label6.TabIndex = 7
@@ -119,7 +119,7 @@ Partial Class Form1
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(535, 25)
+        Me.Button3.Location = New System.Drawing.Point(535, 26)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(104, 27)
         Me.Button3.TabIndex = 5
@@ -131,7 +131,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(30, 34)
+        Me.Label5.Location = New System.Drawing.Point(30, 30)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(63, 19)
         Me.Label5.TabIndex = 7
@@ -139,7 +139,7 @@ Partial Class Form1
         '
         'TrackBar1
         '
-        Me.TrackBar1.Location = New System.Drawing.Point(99, 25)
+        Me.TrackBar1.Location = New System.Drawing.Point(98, 22)
         Me.TrackBar1.Maximum = 100
         Me.TrackBar1.Minimum = 10
         Me.TrackBar1.Name = "TrackBar1"
